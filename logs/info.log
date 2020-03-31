@@ -1,0 +1,826 @@
+2020-03-12 12:04:27,621 [main] INFO  com.example.demo.DemoApplication 55 - Starting DemoApplication on EZ004842 with PID 25364 (D:\epson\workspace\demo\target\classes started by 004842 in D:\epson\workspace\demo)
+2020-03-12 12:04:27,627 [main] INFO  com.example.demo.DemoApplication 651 - No active profile set, falling back to default profiles: default
+2020-03-12 12:04:28,333 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-12 12:04:28,333 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-12 12:04:28,382 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 42ms. Found 2 JPA repository interfaces.
+2020-03-12 12:04:28,543 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-12 12:04:28,545 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-03-12 12:04:28,558 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2020-03-12 12:04:29,166 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 92 - Tomcat initialized with port(s): 8081 (http)
+2020-03-12 12:04:29,177 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8081"]
+2020-03-12 12:04:29,178 [main] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-03-12 12:04:29,179 [main] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-12 12:04:29,310 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2020-03-12 12:04:29,311 [main] INFO  o.s.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1571 ms
+2020-03-12 12:04:29,734 [main] INFO  o.h.jpa.internal.util.LogHelper 31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-12 12:04:29,800 [main] INFO  org.hibernate.Version 44 - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-12 12:04:29,929 [main] INFO  o.h.annotations.common.Version 49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-12 12:04:30,019 [main] INFO  com.zaxxer.hikari.HikariDataSource 110 - HikariPool-1 - Starting...
+2020-03-12 12:04:30,897 [main] INFO  com.zaxxer.hikari.HikariDataSource 123 - HikariPool-1 - Start completed.
+2020-03-12 12:04:30,918 [main] INFO  org.hibernate.dialect.Dialect 172 - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+2020-03-12 12:04:32,063 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator 52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-12 12:04:32,072 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-12 12:04:32,832 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'clientInboundChannelExecutor'
+2020-03-12 12:04:32,836 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2020-03-12 12:04:32,842 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler 181 - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2020-03-12 12:04:32,876 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'brokerChannelExecutor'
+2020-03-12 12:04:32,908 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration 220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-12 12:04:33,161 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping 54 - Adding welcome page: ServletContext resource [/index.html]
+2020-03-12 12:04:33,384 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Starting...
+2020-03-12 12:04:33,384 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-03-12 12:04:33,385 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Started.
+2020-03-12 12:04:33,405 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8081"]
+2020-03-12 12:04:33,448 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 204 - Tomcat started on port(s): 8081 (http) with context path ''
+2020-03-12 12:04:33,451 [main] INFO  com.example.demo.DemoApplication 61 - Started DemoApplication in 6.216 seconds (JVM running for 8.466)
+2020-03-12 12:04:33,568 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-12 12:04:33,569 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
+2020-03-12 12:04:33,579 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet 547 - Completed initialization in 10 ms
+2020-03-12 12:05:32,875 [MessageBroker-2] INFO  o.s.w.s.c.WebSocketMessageBrokerStats 126 - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 3, active threads = 1, queued tasks = 1, completed tasks = 1]
+2020-03-12 12:05:44,182 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin 159 - Application shutdown requested.
+2020-03-12 12:05:44,346 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Stopping...
+2020-03-12 12:05:44,347 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-03-12 12:05:44,347 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Stopped.
+2020-03-12 12:05:44,349 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'brokerChannelExecutor'
+2020-03-12 12:05:44,349 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskScheduler 218 - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2020-03-12 12:05:44,350 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2020-03-12 12:05:44,351 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'clientInboundChannelExecutor'
+2020-03-12 12:05:44,351 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-12 12:05:44,353 [RMI TCP Connection(6)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource 350 - HikariPool-1 - Shutdown initiated...
+2020-03-12 12:05:44,392 [RMI TCP Connection(6)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource 352 - HikariPool-1 - Shutdown completed.
+2020-03-12 12:05:48,768 [main] INFO  com.example.demo.DemoApplication 55 - Starting DemoApplication on EZ004842 with PID 3516 (D:\epson\workspace\demo\target\classes started by 004842 in D:\epson\workspace\demo)
+2020-03-12 12:05:48,771 [main] INFO  com.example.demo.DemoApplication 651 - No active profile set, falling back to default profiles: default
+2020-03-12 12:05:49,381 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-12 12:05:49,381 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-12 12:05:49,433 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 45ms. Found 2 JPA repository interfaces.
+2020-03-12 12:05:49,601 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-12 12:05:49,602 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-03-12 12:05:49,617 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2020-03-12 12:05:50,306 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 92 - Tomcat initialized with port(s): 8081 (http)
+2020-03-12 12:05:50,315 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8081"]
+2020-03-12 12:05:50,315 [main] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-03-12 12:05:50,316 [main] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-12 12:05:50,401 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2020-03-12 12:05:50,402 [main] INFO  o.s.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1523 ms
+2020-03-12 12:05:50,747 [main] INFO  o.h.jpa.internal.util.LogHelper 31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-12 12:05:50,805 [main] INFO  org.hibernate.Version 44 - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-12 12:05:50,915 [main] INFO  o.h.annotations.common.Version 49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-12 12:05:51,010 [main] INFO  com.zaxxer.hikari.HikariDataSource 110 - HikariPool-1 - Starting...
+2020-03-12 12:05:51,851 [main] INFO  com.zaxxer.hikari.HikariDataSource 123 - HikariPool-1 - Start completed.
+2020-03-12 12:05:51,867 [main] INFO  org.hibernate.dialect.Dialect 172 - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+2020-03-12 12:05:53,076 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator 52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-12 12:05:53,082 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-12 12:05:53,783 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'clientInboundChannelExecutor'
+2020-03-12 12:05:53,787 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2020-03-12 12:05:53,792 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler 181 - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2020-03-12 12:05:53,820 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'brokerChannelExecutor'
+2020-03-12 12:05:53,849 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration 220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-12 12:05:54,049 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping 54 - Adding welcome page: ServletContext resource [/index.html]
+2020-03-12 12:05:54,381 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Starting...
+2020-03-12 12:05:54,382 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-03-12 12:05:54,383 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Started.
+2020-03-12 12:05:54,400 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8081"]
+2020-03-12 12:05:54,444 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 204 - Tomcat started on port(s): 8081 (http) with context path ''
+2020-03-12 12:05:54,448 [main] INFO  com.example.demo.DemoApplication 61 - Started DemoApplication in 6.047 seconds (JVM running for 6.892)
+2020-03-12 12:05:54,599 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-12 12:05:54,599 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
+2020-03-12 12:05:54,609 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet 547 - Completed initialization in 10 ms
+2020-03-12 12:06:39,442 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin 159 - Application shutdown requested.
+2020-03-12 12:06:39,605 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Stopping...
+2020-03-12 12:06:39,606 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-03-12 12:06:39,607 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Stopped.
+2020-03-12 12:06:39,607 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'brokerChannelExecutor'
+2020-03-12 12:06:39,608 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskScheduler 218 - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2020-03-12 12:06:39,609 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2020-03-12 12:06:39,609 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'clientInboundChannelExecutor'
+2020-03-12 12:06:39,610 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-12 12:06:39,613 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource 350 - HikariPool-1 - Shutdown initiated...
+2020-03-12 12:06:39,654 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource 352 - HikariPool-1 - Shutdown completed.
+2020-03-12 12:06:44,352 [main] INFO  com.example.demo.DemoApplication 55 - Starting DemoApplication on EZ004842 with PID 21576 (D:\epson\workspace\demo\target\classes started by 004842 in D:\epson\workspace\demo)
+2020-03-12 12:06:44,356 [main] INFO  com.example.demo.DemoApplication 651 - No active profile set, falling back to default profiles: default
+2020-03-12 12:06:44,841 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-12 12:06:44,841 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-12 12:06:44,889 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 39ms. Found 2 JPA repository interfaces.
+2020-03-12 12:06:45,055 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-12 12:06:45,056 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-03-12 12:06:45,073 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+2020-03-12 12:06:45,591 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 92 - Tomcat initialized with port(s): 8081 (http)
+2020-03-12 12:06:45,599 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8081"]
+2020-03-12 12:06:45,600 [main] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-03-12 12:06:45,600 [main] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-12 12:06:45,674 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2020-03-12 12:06:45,674 [main] INFO  o.s.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1219 ms
+2020-03-12 12:06:46,000 [main] INFO  o.h.jpa.internal.util.LogHelper 31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-12 12:06:46,068 [main] INFO  org.hibernate.Version 44 - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-12 12:06:46,172 [main] INFO  o.h.annotations.common.Version 49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-12 12:06:46,249 [main] INFO  com.zaxxer.hikari.HikariDataSource 110 - HikariPool-1 - Starting...
+2020-03-12 12:06:47,077 [main] INFO  com.zaxxer.hikari.HikariDataSource 123 - HikariPool-1 - Start completed.
+2020-03-12 12:06:47,096 [main] INFO  org.hibernate.dialect.Dialect 172 - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+2020-03-12 12:06:48,292 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator 52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-12 12:06:48,299 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-12 12:06:49,005 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'clientInboundChannelExecutor'
+2020-03-12 12:06:49,014 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2020-03-12 12:06:49,022 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler 181 - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2020-03-12 12:06:49,061 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'brokerChannelExecutor'
+2020-03-12 12:06:49,102 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration 220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-12 12:06:49,330 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping 54 - Adding welcome page: ServletContext resource [/index.html]
+2020-03-12 12:06:49,484 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Starting...
+2020-03-12 12:06:49,484 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-03-12 12:06:49,485 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Started.
+2020-03-12 12:06:49,498 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8081"]
+2020-03-12 12:06:49,520 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 204 - Tomcat started on port(s): 8081 (http) with context path ''
+2020-03-12 12:06:49,521 [main] INFO  com.example.demo.DemoApplication 61 - Started DemoApplication in 5.54 seconds (JVM running for 6.417)
+2020-03-12 12:06:53,769 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-12 12:06:53,769 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
+2020-03-12 12:06:53,775 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet 547 - Completed initialization in 5 ms
+2020-03-12 12:07:15,523 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin 159 - Application shutdown requested.
+2020-03-12 12:07:15,688 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Stopping...
+2020-03-12 12:07:15,688 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-03-12 12:07:15,689 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Stopped.
+2020-03-12 12:07:15,690 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'brokerChannelExecutor'
+2020-03-12 12:07:15,691 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskScheduler 218 - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2020-03-12 12:07:15,691 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2020-03-12 12:07:15,692 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'clientInboundChannelExecutor'
+2020-03-12 12:07:15,693 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-12 12:07:15,696 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource 350 - HikariPool-1 - Shutdown initiated...
+2020-03-12 12:07:15,735 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource 352 - HikariPool-1 - Shutdown completed.
+2020-03-12 12:07:20,052 [main] INFO  com.example.demo.DemoApplication 55 - Starting DemoApplication on EZ004842 with PID 15908 (D:\epson\workspace\demo\target\classes started by 004842 in D:\epson\workspace\demo)
+2020-03-12 12:07:20,055 [main] INFO  com.example.demo.DemoApplication 651 - No active profile set, falling back to default profiles: default
+2020-03-12 12:07:20,542 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-12 12:07:20,543 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-12 12:07:20,590 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 39ms. Found 2 JPA repository interfaces.
+2020-03-12 12:07:20,753 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-12 12:07:20,755 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-03-12 12:07:20,769 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2020-03-12 12:07:21,286 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 92 - Tomcat initialized with port(s): 8081 (http)
+2020-03-12 12:07:21,293 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8081"]
+2020-03-12 12:07:21,294 [main] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-03-12 12:07:21,294 [main] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-12 12:07:21,372 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2020-03-12 12:07:21,372 [main] INFO  o.s.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1218 ms
+2020-03-12 12:07:21,686 [main] INFO  o.h.jpa.internal.util.LogHelper 31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-12 12:07:21,738 [main] INFO  org.hibernate.Version 44 - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-12 12:07:21,836 [main] INFO  o.h.annotations.common.Version 49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-12 12:07:21,913 [main] INFO  com.zaxxer.hikari.HikariDataSource 110 - HikariPool-1 - Starting...
+2020-03-12 12:07:22,741 [main] INFO  com.zaxxer.hikari.HikariDataSource 123 - HikariPool-1 - Start completed.
+2020-03-12 12:07:22,757 [main] INFO  org.hibernate.dialect.Dialect 172 - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+2020-03-12 12:07:24,526 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator 52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-12 12:07:24,532 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-12 12:07:25,241 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'clientInboundChannelExecutor'
+2020-03-12 12:07:25,246 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2020-03-12 12:07:25,251 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler 181 - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2020-03-12 12:07:25,284 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'brokerChannelExecutor'
+2020-03-12 12:07:25,316 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration 220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-12 12:07:25,492 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping 54 - Adding welcome page: ServletContext resource [/index.html]
+2020-03-12 12:07:25,673 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Starting...
+2020-03-12 12:07:25,673 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-03-12 12:07:25,674 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Started.
+2020-03-12 12:07:25,684 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8081"]
+2020-03-12 12:07:25,704 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 204 - Tomcat started on port(s): 8081 (http) with context path ''
+2020-03-12 12:07:25,706 [main] INFO  com.example.demo.DemoApplication 61 - Started DemoApplication in 6.005 seconds (JVM running for 6.848)
+2020-03-12 12:07:25,922 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-12 12:07:25,922 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
+2020-03-12 12:07:25,929 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet 547 - Completed initialization in 7 ms
+2020-03-12 12:08:06,444 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin 159 - Application shutdown requested.
+2020-03-12 12:08:06,608 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Stopping...
+2020-03-12 12:08:06,608 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-03-12 12:08:06,609 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Stopped.
+2020-03-12 12:08:06,610 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'brokerChannelExecutor'
+2020-03-12 12:08:06,611 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskScheduler 218 - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2020-03-12 12:08:06,612 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2020-03-12 12:08:06,612 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'clientInboundChannelExecutor'
+2020-03-12 12:08:06,612 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-12 12:08:06,615 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource 350 - HikariPool-1 - Shutdown initiated...
+2020-03-12 12:08:06,653 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource 352 - HikariPool-1 - Shutdown completed.
+2020-03-12 12:08:11,219 [main] INFO  com.example.demo.DemoApplication 55 - Starting DemoApplication on EZ004842 with PID 24664 (D:\epson\workspace\demo\target\classes started by 004842 in D:\epson\workspace\demo)
+2020-03-12 12:08:11,222 [main] INFO  com.example.demo.DemoApplication 651 - No active profile set, falling back to default profiles: default
+2020-03-12 12:08:11,897 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-12 12:08:11,898 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-12 12:08:11,965 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 58ms. Found 2 JPA repository interfaces.
+2020-03-12 12:08:12,152 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-12 12:08:12,153 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-03-12 12:08:12,171 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 8ms. Found 0 Redis repository interfaces.
+2020-03-12 12:08:12,748 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 92 - Tomcat initialized with port(s): 8081 (http)
+2020-03-12 12:08:12,755 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8081"]
+2020-03-12 12:08:12,756 [main] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-03-12 12:08:12,756 [main] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-12 12:08:12,837 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2020-03-12 12:08:12,837 [main] INFO  o.s.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1443 ms
+2020-03-12 12:08:13,190 [main] INFO  o.h.jpa.internal.util.LogHelper 31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-12 12:08:13,262 [main] INFO  org.hibernate.Version 44 - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-12 12:08:13,406 [main] INFO  o.h.annotations.common.Version 49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-12 12:08:13,485 [main] INFO  com.zaxxer.hikari.HikariDataSource 110 - HikariPool-1 - Starting...
+2020-03-12 12:08:14,311 [main] INFO  com.zaxxer.hikari.HikariDataSource 123 - HikariPool-1 - Start completed.
+2020-03-12 12:08:14,328 [main] INFO  org.hibernate.dialect.Dialect 172 - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+2020-03-12 12:08:15,481 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator 52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-12 12:08:15,487 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-12 12:08:16,191 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'clientInboundChannelExecutor'
+2020-03-12 12:08:16,197 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2020-03-12 12:08:16,202 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler 181 - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2020-03-12 12:08:16,234 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'brokerChannelExecutor'
+2020-03-12 12:08:16,264 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration 220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-12 12:08:16,438 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping 54 - Adding welcome page: ServletContext resource [/index.html]
+2020-03-12 12:08:16,607 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Starting...
+2020-03-12 12:08:16,607 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-03-12 12:08:16,608 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Started.
+2020-03-12 12:08:16,617 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8081"]
+2020-03-12 12:08:16,636 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 204 - Tomcat started on port(s): 8081 (http) with context path ''
+2020-03-12 12:08:16,638 [main] INFO  com.example.demo.DemoApplication 61 - Started DemoApplication in 5.947 seconds (JVM running for 6.99)
+2020-03-12 12:09:16,232 [MessageBroker-2] INFO  o.s.w.s.c.WebSocketMessageBrokerStats 126 - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 3, active threads = 1, queued tasks = 1, completed tasks = 1]
+2020-03-12 12:09:21,795 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin 159 - Application shutdown requested.
+2020-03-12 12:09:21,959 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Stopping...
+2020-03-12 12:09:21,960 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-03-12 12:09:21,961 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Stopped.
+2020-03-12 12:09:21,962 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'brokerChannelExecutor'
+2020-03-12 12:09:21,962 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskScheduler 218 - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2020-03-12 12:09:21,963 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2020-03-12 12:09:21,963 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'clientInboundChannelExecutor'
+2020-03-12 12:09:21,964 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-12 12:09:21,966 [RMI TCP Connection(6)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource 350 - HikariPool-1 - Shutdown initiated...
+2020-03-12 12:09:22,008 [RMI TCP Connection(6)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource 352 - HikariPool-1 - Shutdown completed.
+2020-03-12 12:09:25,397 [main] INFO  com.example.demo.DemoApplication 55 - Starting DemoApplication on EZ004842 with PID 2216 (D:\epson\workspace\demo\target\classes started by 004842 in D:\epson\workspace\demo)
+2020-03-12 12:09:25,400 [main] INFO  com.example.demo.DemoApplication 651 - No active profile set, falling back to default profiles: default
+2020-03-12 12:09:25,857 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-12 12:09:25,857 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-12 12:09:25,902 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 37ms. Found 2 JPA repository interfaces.
+2020-03-12 12:09:26,083 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-12 12:09:26,085 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-03-12 12:09:26,106 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+2020-03-12 12:09:26,661 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 92 - Tomcat initialized with port(s): 8081 (http)
+2020-03-12 12:09:26,668 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8081"]
+2020-03-12 12:09:26,668 [main] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-03-12 12:09:26,668 [main] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-12 12:09:26,740 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2020-03-12 12:09:26,741 [main] INFO  o.s.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1240 ms
+2020-03-12 12:09:27,038 [main] INFO  o.h.jpa.internal.util.LogHelper 31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-12 12:09:27,090 [main] INFO  org.hibernate.Version 44 - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-12 12:09:27,184 [main] INFO  o.h.annotations.common.Version 49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-12 12:09:27,263 [main] INFO  com.zaxxer.hikari.HikariDataSource 110 - HikariPool-1 - Starting...
+2020-03-12 12:09:28,094 [main] INFO  com.zaxxer.hikari.HikariDataSource 123 - HikariPool-1 - Start completed.
+2020-03-12 12:09:28,114 [main] INFO  org.hibernate.dialect.Dialect 172 - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+2020-03-12 12:09:29,675 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator 52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-12 12:09:29,683 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-12 12:09:30,525 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'clientInboundChannelExecutor'
+2020-03-12 12:09:30,530 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2020-03-12 12:09:30,535 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler 181 - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2020-03-12 12:09:30,563 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'brokerChannelExecutor'
+2020-03-12 12:09:30,593 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration 220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-12 12:09:30,753 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping 54 - Adding welcome page: ServletContext resource [/index.html]
+2020-03-12 12:09:30,958 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Starting...
+2020-03-12 12:09:30,959 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-03-12 12:09:30,960 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Started.
+2020-03-12 12:09:30,970 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8081"]
+2020-03-12 12:09:30,999 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 204 - Tomcat started on port(s): 8081 (http) with context path ''
+2020-03-12 12:09:31,002 [main] INFO  com.example.demo.DemoApplication 61 - Started DemoApplication in 5.966 seconds (JVM running for 6.708)
+2020-03-12 12:09:31,096 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-12 12:09:31,097 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
+2020-03-12 12:09:31,103 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet 547 - Completed initialization in 6 ms
+2020-03-12 12:10:30,562 [MessageBroker-2] INFO  o.s.w.s.c.WebSocketMessageBrokerStats 126 - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 3, active threads = 1, queued tasks = 1, completed tasks = 1]
+2020-03-12 12:18:28,677 [RMI TCP Connection(22)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin 159 - Application shutdown requested.
+2020-03-12 12:18:28,845 [RMI TCP Connection(22)-127.0.0.1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Stopping...
+2020-03-12 12:18:28,845 [RMI TCP Connection(22)-127.0.0.1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[1 sessions]]]]
+2020-03-12 12:18:28,846 [RMI TCP Connection(22)-127.0.0.1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Stopped.
+2020-03-12 12:18:28,848 [RMI TCP Connection(22)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'brokerChannelExecutor'
+2020-03-12 12:18:28,849 [RMI TCP Connection(22)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskScheduler 218 - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2020-03-12 12:18:28,850 [RMI TCP Connection(22)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2020-03-12 12:18:28,851 [RMI TCP Connection(22)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'clientInboundChannelExecutor'
+2020-03-12 12:18:28,852 [RMI TCP Connection(22)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-12 12:18:28,855 [RMI TCP Connection(22)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource 350 - HikariPool-1 - Shutdown initiated...
+2020-03-12 12:18:28,898 [RMI TCP Connection(22)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource 352 - HikariPool-1 - Shutdown completed.
+2020-03-12 12:18:33,895 [main] INFO  com.example.demo.DemoApplication 55 - Starting DemoApplication on EZ004842 with PID 10756 (D:\epson\workspace\demo\target\classes started by 004842 in D:\epson\workspace\demo)
+2020-03-12 12:18:33,898 [main] INFO  com.example.demo.DemoApplication 651 - No active profile set, falling back to default profiles: default
+2020-03-12 12:18:34,371 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-12 12:18:34,371 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-12 12:18:34,422 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 42ms. Found 2 JPA repository interfaces.
+2020-03-12 12:18:34,595 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-12 12:18:34,743 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-03-12 12:18:34,758 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+2020-03-12 12:18:35,254 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 92 - Tomcat initialized with port(s): 8081 (http)
+2020-03-12 12:18:35,261 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8081"]
+2020-03-12 12:18:35,262 [main] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-03-12 12:18:35,262 [main] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-12 12:18:35,336 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2020-03-12 12:18:35,337 [main] INFO  o.s.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1335 ms
+2020-03-12 12:18:35,646 [main] INFO  o.h.jpa.internal.util.LogHelper 31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-12 12:18:35,703 [main] INFO  org.hibernate.Version 44 - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-12 12:18:35,801 [main] INFO  o.h.annotations.common.Version 49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-12 12:18:35,890 [main] INFO  com.zaxxer.hikari.HikariDataSource 110 - HikariPool-1 - Starting...
+2020-03-12 12:18:36,721 [main] INFO  com.zaxxer.hikari.HikariDataSource 123 - HikariPool-1 - Start completed.
+2020-03-12 12:18:36,737 [main] INFO  org.hibernate.dialect.Dialect 172 - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+2020-03-12 12:18:37,939 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator 52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-12 12:18:37,947 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-12 12:18:38,681 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'clientInboundChannelExecutor'
+2020-03-12 12:18:38,685 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2020-03-12 12:18:38,690 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler 181 - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2020-03-12 12:18:38,722 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'brokerChannelExecutor'
+2020-03-12 12:18:38,752 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration 220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-12 12:18:38,923 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping 54 - Adding welcome page: ServletContext resource [/index.html]
+2020-03-12 12:18:39,142 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Starting...
+2020-03-12 12:18:39,142 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-03-12 12:18:39,144 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Started.
+2020-03-12 12:18:39,155 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8081"]
+2020-03-12 12:18:39,176 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 204 - Tomcat started on port(s): 8081 (http) with context path ''
+2020-03-12 12:18:39,178 [main] INFO  com.example.demo.DemoApplication 61 - Started DemoApplication in 5.657 seconds (JVM running for 6.457)
+2020-03-12 12:18:51,724 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-12 12:18:51,724 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
+2020-03-12 12:18:51,732 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet 547 - Completed initialization in 8 ms
+2020-03-12 12:19:38,721 [MessageBroker-3] INFO  o.s.w.s.c.WebSocketMessageBrokerStats 126 - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(1)-CONNECTED(1)-DISCONNECT(1)], stompBrokerRelay[null], inboundChannel[pool size = 8, active threads = 0, queued tasks = 0, completed tasks = 15], outboundChannel[pool size = 3, active threads = 0, queued tasks = 0, completed tasks = 3], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 2, completed tasks = 12]
+2020-03-12 12:49:38,723 [MessageBroker-1] INFO  o.s.w.s.c.WebSocketMessageBrokerStats 126 - WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 2 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(2)-CONNECTED(2)-DISCONNECT(1)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 24], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 4], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 3, completed tasks = 474]
+2020-03-12 13:19:38,724 [MessageBroker-2] INFO  o.s.w.s.c.WebSocketMessageBrokerStats 126 - WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 2 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(2)-CONNECTED(2)-DISCONNECT(1)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 24], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 4], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 3, completed tasks = 937]
+2020-03-12 13:48:47,231 [RMI TCP Connection(184)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin 159 - Application shutdown requested.
+2020-03-12 13:48:47,394 [RMI TCP Connection(184)-127.0.0.1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Stopping...
+2020-03-12 13:48:47,395 [RMI TCP Connection(184)-127.0.0.1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-03-12 13:48:47,396 [RMI TCP Connection(184)-127.0.0.1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Stopped.
+2020-03-12 13:48:47,397 [RMI TCP Connection(184)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'brokerChannelExecutor'
+2020-03-12 13:48:47,398 [RMI TCP Connection(184)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskScheduler 218 - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2020-03-12 13:48:47,399 [RMI TCP Connection(184)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2020-03-12 13:48:47,399 [RMI TCP Connection(184)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'clientInboundChannelExecutor'
+2020-03-12 13:48:47,400 [RMI TCP Connection(184)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-12 13:48:47,404 [RMI TCP Connection(184)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource 350 - HikariPool-1 - Shutdown initiated...
+2020-03-12 13:48:47,443 [RMI TCP Connection(184)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource 352 - HikariPool-1 - Shutdown completed.
+2020-03-12 13:48:53,777 [main] INFO  com.example.demo.DemoApplication 55 - Starting DemoApplication on EZ004842 with PID 28372 (D:\epson\workspace\demo\target\classes started by 004842 in D:\epson\workspace\demo)
+2020-03-12 13:48:53,780 [main] INFO  com.example.demo.DemoApplication 651 - No active profile set, falling back to default profiles: default
+2020-03-12 13:48:54,330 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-12 13:48:54,330 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-12 13:48:54,378 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 40ms. Found 2 JPA repository interfaces.
+2020-03-12 13:48:54,536 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-12 13:48:54,538 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-03-12 13:48:54,554 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+2020-03-12 13:48:55,202 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 92 - Tomcat initialized with port(s): 8081 (http)
+2020-03-12 13:48:55,210 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8081"]
+2020-03-12 13:48:55,211 [main] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-03-12 13:48:55,211 [main] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-12 13:48:55,288 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2020-03-12 13:48:55,289 [main] INFO  o.s.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1407 ms
+2020-03-12 13:48:55,636 [main] INFO  o.h.jpa.internal.util.LogHelper 31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-12 13:48:55,693 [main] INFO  org.hibernate.Version 44 - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-12 13:48:55,791 [main] INFO  o.h.annotations.common.Version 49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-12 13:48:55,873 [main] INFO  com.zaxxer.hikari.HikariDataSource 110 - HikariPool-1 - Starting...
+2020-03-12 13:48:56,689 [main] INFO  com.zaxxer.hikari.HikariDataSource 123 - HikariPool-1 - Start completed.
+2020-03-12 13:48:56,705 [main] INFO  org.hibernate.dialect.Dialect 172 - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+2020-03-12 13:48:58,200 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator 52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-12 13:48:58,208 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-12 13:48:59,007 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'clientInboundChannelExecutor'
+2020-03-12 13:48:59,012 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2020-03-12 13:48:59,017 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler 181 - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2020-03-12 13:48:59,050 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'brokerChannelExecutor'
+2020-03-12 13:48:59,082 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration 220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-12 13:48:59,264 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping 54 - Adding welcome page: ServletContext resource [/index.html]
+2020-03-12 13:48:59,463 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Starting...
+2020-03-12 13:48:59,463 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-03-12 13:48:59,464 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Started.
+2020-03-12 13:48:59,476 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8081"]
+2020-03-12 13:48:59,496 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 204 - Tomcat started on port(s): 8081 (http) with context path ''
+2020-03-12 13:48:59,498 [main] INFO  com.example.demo.DemoApplication 61 - Started DemoApplication in 6.104 seconds (JVM running for 7.052)
+2020-03-12 13:48:59,831 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-12 13:48:59,831 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
+2020-03-12 13:48:59,839 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet 547 - Completed initialization in 8 ms
+2020-03-12 13:49:59,049 [MessageBroker-1] INFO  o.s.w.s.c.WebSocketMessageBrokerStats 126 - WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(1)-CONNECTED(1)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 8, active threads = 0, queued tasks = 0, completed tasks = 9], outboundChannel[pool size = 1, active threads = 0, queued tasks = 0, completed tasks = 1], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 3, completed tasks = 12]
+2020-03-12 13:55:59,493 [RMI TCP Connection(18)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin 159 - Application shutdown requested.
+2020-03-12 13:55:59,658 [RMI TCP Connection(18)-127.0.0.1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Stopping...
+2020-03-12 13:55:59,659 [RMI TCP Connection(18)-127.0.0.1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-03-12 13:55:59,659 [RMI TCP Connection(18)-127.0.0.1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Stopped.
+2020-03-12 13:55:59,660 [RMI TCP Connection(18)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'brokerChannelExecutor'
+2020-03-12 13:55:59,661 [RMI TCP Connection(18)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskScheduler 218 - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2020-03-12 13:55:59,662 [RMI TCP Connection(18)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2020-03-12 13:55:59,663 [RMI TCP Connection(18)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'clientInboundChannelExecutor'
+2020-03-12 13:55:59,664 [RMI TCP Connection(18)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-12 13:55:59,667 [RMI TCP Connection(18)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource 350 - HikariPool-1 - Shutdown initiated...
+2020-03-12 13:55:59,708 [RMI TCP Connection(18)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource 352 - HikariPool-1 - Shutdown completed.
+2020-03-12 13:56:03,974 [main] INFO  com.example.demo.DemoApplication 55 - Starting DemoApplication on EZ004842 with PID 11420 (D:\epson\workspace\demo\target\classes started by 004842 in D:\epson\workspace\demo)
+2020-03-12 13:56:03,977 [main] INFO  com.example.demo.DemoApplication 651 - No active profile set, falling back to default profiles: default
+2020-03-12 13:56:04,767 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-12 13:56:04,767 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-12 13:56:04,815 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 40ms. Found 2 JPA repository interfaces.
+2020-03-12 13:56:04,989 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-12 13:56:04,991 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-03-12 13:56:05,007 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+2020-03-12 13:56:05,706 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 92 - Tomcat initialized with port(s): 8081 (http)
+2020-03-12 13:56:05,713 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8081"]
+2020-03-12 13:56:05,713 [main] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-03-12 13:56:05,714 [main] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-12 13:56:05,791 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2020-03-12 13:56:05,791 [main] INFO  o.s.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1687 ms
+2020-03-12 13:56:06,204 [main] INFO  o.h.jpa.internal.util.LogHelper 31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-12 13:56:06,268 [main] INFO  org.hibernate.Version 44 - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-12 13:56:06,384 [main] INFO  o.h.annotations.common.Version 49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-12 13:56:06,471 [main] INFO  com.zaxxer.hikari.HikariDataSource 110 - HikariPool-1 - Starting...
+2020-03-12 13:56:07,646 [main] INFO  com.zaxxer.hikari.HikariDataSource 123 - HikariPool-1 - Start completed.
+2020-03-12 13:56:07,666 [main] INFO  org.hibernate.dialect.Dialect 172 - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+2020-03-12 13:56:09,185 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator 52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-12 13:56:09,192 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-12 13:56:10,124 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'clientInboundChannelExecutor'
+2020-03-12 13:56:10,129 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2020-03-12 13:56:10,134 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler 181 - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2020-03-12 13:56:10,163 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'brokerChannelExecutor'
+2020-03-12 13:56:10,192 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration 220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-12 13:56:10,428 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping 54 - Adding welcome page: ServletContext resource [/index.html]
+2020-03-12 13:56:10,610 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Starting...
+2020-03-12 13:56:10,611 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-03-12 13:56:10,611 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Started.
+2020-03-12 13:56:10,623 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8081"]
+2020-03-12 13:56:10,642 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 204 - Tomcat started on port(s): 8081 (http) with context path ''
+2020-03-12 13:56:10,644 [main] INFO  com.example.demo.DemoApplication 61 - Started DemoApplication in 7.171 seconds (JVM running for 7.974)
+2020-03-12 13:56:10,807 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-12 13:56:10,807 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
+2020-03-12 13:56:10,815 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet 547 - Completed initialization in 8 ms
+2020-03-12 13:57:10,163 [MessageBroker-3] INFO  o.s.w.s.c.WebSocketMessageBrokerStats 126 - WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(1)-CONNECTED(1)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 8, active threads = 0, queued tasks = 0, completed tasks = 21], outboundChannel[pool size = 1, active threads = 0, queued tasks = 0, completed tasks = 1], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 3, completed tasks = 14]
+2020-03-12 14:07:49,727 [RMI TCP Connection(26)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin 159 - Application shutdown requested.
+2020-03-12 14:07:49,891 [RMI TCP Connection(26)-127.0.0.1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Stopping...
+2020-03-12 14:07:49,892 [RMI TCP Connection(26)-127.0.0.1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-03-12 14:07:49,893 [RMI TCP Connection(26)-127.0.0.1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Stopped.
+2020-03-12 14:07:49,894 [RMI TCP Connection(26)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'brokerChannelExecutor'
+2020-03-12 14:07:49,895 [RMI TCP Connection(26)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskScheduler 218 - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2020-03-12 14:07:49,895 [RMI TCP Connection(26)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2020-03-12 14:07:49,896 [RMI TCP Connection(26)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'clientInboundChannelExecutor'
+2020-03-12 14:07:49,897 [RMI TCP Connection(26)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-12 14:07:49,900 [RMI TCP Connection(26)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource 350 - HikariPool-1 - Shutdown initiated...
+2020-03-12 14:07:49,943 [RMI TCP Connection(26)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource 352 - HikariPool-1 - Shutdown completed.
+2020-03-12 14:07:54,080 [main] INFO  com.example.demo.DemoApplication 55 - Starting DemoApplication on EZ004842 with PID 5448 (D:\epson\workspace\demo\target\classes started by 004842 in D:\epson\workspace\demo)
+2020-03-12 14:07:54,083 [main] INFO  com.example.demo.DemoApplication 651 - No active profile set, falling back to default profiles: default
+2020-03-12 14:07:54,578 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-12 14:07:54,579 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-12 14:07:54,625 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 39ms. Found 2 JPA repository interfaces.
+2020-03-12 14:07:54,772 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-12 14:07:54,773 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-03-12 14:07:54,788 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2020-03-12 14:07:55,255 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 92 - Tomcat initialized with port(s): 8081 (http)
+2020-03-12 14:07:55,261 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8081"]
+2020-03-12 14:07:55,262 [main] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-03-12 14:07:55,262 [main] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-12 14:07:55,344 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2020-03-12 14:07:55,344 [main] INFO  o.s.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1152 ms
+2020-03-12 14:07:55,678 [main] INFO  o.h.jpa.internal.util.LogHelper 31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-12 14:07:55,728 [main] INFO  org.hibernate.Version 44 - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-12 14:07:55,819 [main] INFO  o.h.annotations.common.Version 49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-12 14:07:55,898 [main] INFO  com.zaxxer.hikari.HikariDataSource 110 - HikariPool-1 - Starting...
+2020-03-12 14:07:56,713 [main] INFO  com.zaxxer.hikari.HikariDataSource 123 - HikariPool-1 - Start completed.
+2020-03-12 14:07:56,735 [main] INFO  org.hibernate.dialect.Dialect 172 - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+2020-03-12 14:07:57,921 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator 52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-12 14:07:57,927 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-12 14:07:58,863 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'clientInboundChannelExecutor'
+2020-03-12 14:07:58,867 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2020-03-12 14:07:58,873 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler 181 - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2020-03-12 14:07:58,904 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'brokerChannelExecutor'
+2020-03-12 14:07:58,933 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration 220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-12 14:07:59,182 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping 54 - Adding welcome page: ServletContext resource [/index.html]
+2020-03-12 14:07:59,363 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Starting...
+2020-03-12 14:07:59,364 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-03-12 14:07:59,364 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Started.
+2020-03-12 14:07:59,375 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8081"]
+2020-03-12 14:07:59,395 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 204 - Tomcat started on port(s): 8081 (http) with context path ''
+2020-03-12 14:07:59,397 [main] INFO  com.example.demo.DemoApplication 61 - Started DemoApplication in 5.685 seconds (JVM running for 6.551)
+2020-03-12 14:08:02,615 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-12 14:08:02,615 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
+2020-03-12 14:08:02,622 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet 547 - Completed initialization in 7 ms
+2020-03-12 14:08:58,903 [MessageBroker-4] INFO  o.s.w.s.c.WebSocketMessageBrokerStats 126 - WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 2 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(2)-CONNECTED(2)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 8, active threads = 0, queued tasks = 0, completed tasks = 24], outboundChannel[pool size = 3, active threads = 0, queued tasks = 0, completed tasks = 3], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 3, completed tasks = 11]
+2020-03-12 14:09:47,939 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin 159 - Application shutdown requested.
+2020-03-12 14:09:48,109 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Stopping...
+2020-03-12 14:09:48,110 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[1 sessions]]]]
+2020-03-12 14:09:48,110 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Stopped.
+2020-03-12 14:09:48,112 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'brokerChannelExecutor'
+2020-03-12 14:09:48,113 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskScheduler 218 - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2020-03-12 14:09:48,114 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2020-03-12 14:09:48,115 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'clientInboundChannelExecutor'
+2020-03-12 14:09:48,116 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-12 14:09:48,120 [RMI TCP Connection(6)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource 350 - HikariPool-1 - Shutdown initiated...
+2020-03-12 14:09:48,157 [RMI TCP Connection(6)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource 352 - HikariPool-1 - Shutdown completed.
+2020-03-12 14:09:51,647 [main] INFO  com.example.demo.DemoApplication 55 - Starting DemoApplication on EZ004842 with PID 26172 (D:\epson\workspace\demo\target\classes started by 004842 in D:\epson\workspace\demo)
+2020-03-12 14:09:51,655 [main] INFO  com.example.demo.DemoApplication 651 - No active profile set, falling back to default profiles: default
+2020-03-12 14:09:52,190 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-12 14:09:52,191 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-12 14:09:52,276 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 74ms. Found 2 JPA repository interfaces.
+2020-03-12 14:09:52,505 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-12 14:09:52,506 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-03-12 14:09:52,520 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+2020-03-12 14:09:53,064 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 92 - Tomcat initialized with port(s): 8081 (http)
+2020-03-12 14:09:53,076 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8081"]
+2020-03-12 14:09:53,077 [main] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-03-12 14:09:53,078 [main] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-12 14:09:53,199 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2020-03-12 14:09:53,199 [main] INFO  o.s.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1415 ms
+2020-03-12 14:09:53,619 [main] INFO  o.h.jpa.internal.util.LogHelper 31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-12 14:09:53,674 [main] INFO  org.hibernate.Version 44 - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-12 14:09:53,777 [main] INFO  o.h.annotations.common.Version 49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-12 14:09:53,863 [main] INFO  com.zaxxer.hikari.HikariDataSource 110 - HikariPool-1 - Starting...
+2020-03-12 14:09:54,679 [main] INFO  com.zaxxer.hikari.HikariDataSource 123 - HikariPool-1 - Start completed.
+2020-03-12 14:09:54,695 [main] INFO  org.hibernate.dialect.Dialect 172 - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+2020-03-12 14:09:55,806 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator 52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-12 14:09:55,812 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-12 14:09:56,616 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'clientInboundChannelExecutor'
+2020-03-12 14:09:56,621 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2020-03-12 14:09:56,627 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler 181 - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2020-03-12 14:09:56,664 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'brokerChannelExecutor'
+2020-03-12 14:09:56,696 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration 220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-12 14:09:56,869 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping 54 - Adding welcome page: ServletContext resource [/index.html]
+2020-03-12 14:09:57,028 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Starting...
+2020-03-12 14:09:57,029 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-03-12 14:09:57,030 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Started.
+2020-03-12 14:09:57,041 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8081"]
+2020-03-12 14:09:57,061 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 204 - Tomcat started on port(s): 8081 (http) with context path ''
+2020-03-12 14:09:57,063 [main] INFO  com.example.demo.DemoApplication 61 - Started DemoApplication in 5.901 seconds (JVM running for 6.7)
+2020-03-12 14:09:57,164 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-12 14:09:57,165 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
+2020-03-12 14:09:57,176 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet 547 - Completed initialization in 11 ms
+2020-03-12 14:10:56,663 [MessageBroker-1] INFO  o.s.w.s.c.WebSocketMessageBrokerStats 126 - WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(1)-CONNECTED(1)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 8, active threads = 0, queued tasks = 0, completed tasks = 24], outboundChannel[pool size = 1, active threads = 0, queued tasks = 0, completed tasks = 1], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 3, completed tasks = 14]
+2020-03-12 14:13:46,555 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin 159 - Application shutdown requested.
+2020-03-12 14:13:46,720 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Stopping...
+2020-03-12 14:13:46,720 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-03-12 14:13:46,721 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Stopped.
+2020-03-12 14:13:46,722 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'brokerChannelExecutor'
+2020-03-12 14:13:46,723 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskScheduler 218 - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2020-03-12 14:13:46,724 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2020-03-12 14:13:46,725 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'clientInboundChannelExecutor'
+2020-03-12 14:13:46,726 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-12 14:13:46,730 [RMI TCP Connection(10)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource 350 - HikariPool-1 - Shutdown initiated...
+2020-03-12 14:13:46,769 [RMI TCP Connection(10)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource 352 - HikariPool-1 - Shutdown completed.
+2020-03-12 14:13:50,616 [main] INFO  com.example.demo.DemoApplication 55 - Starting DemoApplication on EZ004842 with PID 3840 (D:\epson\workspace\demo\target\classes started by 004842 in D:\epson\workspace\demo)
+2020-03-12 14:13:50,620 [main] INFO  com.example.demo.DemoApplication 651 - No active profile set, falling back to default profiles: default
+2020-03-12 14:13:51,224 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-12 14:13:51,224 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-12 14:13:51,270 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 38ms. Found 2 JPA repository interfaces.
+2020-03-12 14:13:51,430 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-12 14:13:51,431 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-03-12 14:13:51,444 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2020-03-12 14:13:51,895 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 92 - Tomcat initialized with port(s): 8081 (http)
+2020-03-12 14:13:51,902 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8081"]
+2020-03-12 14:13:51,903 [main] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-03-12 14:13:51,903 [main] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-12 14:13:51,977 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2020-03-12 14:13:51,978 [main] INFO  o.s.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1260 ms
+2020-03-12 14:13:52,281 [main] INFO  o.h.jpa.internal.util.LogHelper 31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-12 14:13:52,332 [main] INFO  org.hibernate.Version 44 - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-12 14:13:52,430 [main] INFO  o.h.annotations.common.Version 49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-12 14:13:52,507 [main] INFO  com.zaxxer.hikari.HikariDataSource 110 - HikariPool-1 - Starting...
+2020-03-12 14:13:53,318 [main] INFO  com.zaxxer.hikari.HikariDataSource 123 - HikariPool-1 - Start completed.
+2020-03-12 14:13:53,333 [main] INFO  org.hibernate.dialect.Dialect 172 - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+2020-03-12 14:13:54,436 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator 52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-12 14:13:54,442 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-12 14:13:55,121 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'clientInboundChannelExecutor'
+2020-03-12 14:13:55,125 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2020-03-12 14:13:55,131 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler 181 - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2020-03-12 14:13:55,163 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'brokerChannelExecutor'
+2020-03-12 14:13:55,192 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration 220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-12 14:13:55,351 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping 54 - Adding welcome page: ServletContext resource [/index.html]
+2020-03-12 14:13:55,495 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Starting...
+2020-03-12 14:13:55,495 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-03-12 14:13:55,496 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Started.
+2020-03-12 14:13:55,505 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8081"]
+2020-03-12 14:13:55,525 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 204 - Tomcat started on port(s): 8081 (http) with context path ''
+2020-03-12 14:13:55,528 [main] INFO  com.example.demo.DemoApplication 61 - Started DemoApplication in 5.345 seconds (JVM running for 6.266)
+2020-03-12 14:14:00,339 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-12 14:14:00,340 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
+2020-03-12 14:14:00,350 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet 547 - Completed initialization in 10 ms
+2020-03-12 14:14:55,162 [MessageBroker-2] INFO  o.s.w.s.c.WebSocketMessageBrokerStats 126 - WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(1)-CONNECTED(1)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 8, active threads = 0, queued tasks = 0, completed tasks = 15], outboundChannel[pool size = 1, active threads = 0, queued tasks = 0, completed tasks = 1], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 3, completed tasks = 10]
+2020-03-12 14:22:21,369 [RMI TCP Connection(19)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin 159 - Application shutdown requested.
+2020-03-12 14:22:21,532 [RMI TCP Connection(19)-127.0.0.1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Stopping...
+2020-03-12 14:22:21,533 [RMI TCP Connection(19)-127.0.0.1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[1 sessions]]]]
+2020-03-12 14:22:21,534 [RMI TCP Connection(19)-127.0.0.1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Stopped.
+2020-03-12 14:22:21,535 [RMI TCP Connection(19)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'brokerChannelExecutor'
+2020-03-12 14:22:21,536 [RMI TCP Connection(19)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskScheduler 218 - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2020-03-12 14:22:21,537 [RMI TCP Connection(19)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2020-03-12 14:22:21,538 [RMI TCP Connection(19)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'clientInboundChannelExecutor'
+2020-03-12 14:22:21,539 [RMI TCP Connection(19)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-12 14:22:21,543 [RMI TCP Connection(19)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource 350 - HikariPool-1 - Shutdown initiated...
+2020-03-12 14:22:21,584 [RMI TCP Connection(19)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource 352 - HikariPool-1 - Shutdown completed.
+2020-03-12 14:22:25,215 [main] INFO  com.example.demo.DemoApplication 55 - Starting DemoApplication on EZ004842 with PID 12240 (D:\epson\workspace\demo\target\classes started by 004842 in D:\epson\workspace\demo)
+2020-03-12 14:22:25,219 [main] INFO  com.example.demo.DemoApplication 651 - No active profile set, falling back to default profiles: default
+2020-03-12 14:22:25,776 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-12 14:22:25,777 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-12 14:22:25,838 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 53ms. Found 2 JPA repository interfaces.
+2020-03-12 14:22:26,086 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-12 14:22:26,088 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-03-12 14:22:26,115 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 19ms. Found 0 Redis repository interfaces.
+2020-03-12 14:22:26,635 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 92 - Tomcat initialized with port(s): 8081 (http)
+2020-03-12 14:22:26,644 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8081"]
+2020-03-12 14:22:26,644 [main] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-03-12 14:22:26,645 [main] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-12 14:22:26,729 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2020-03-12 14:22:26,729 [main] INFO  o.s.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1401 ms
+2020-03-12 14:22:27,128 [main] INFO  o.h.jpa.internal.util.LogHelper 31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-12 14:22:27,188 [main] INFO  org.hibernate.Version 44 - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-12 14:22:27,291 [main] INFO  o.h.annotations.common.Version 49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-12 14:22:27,381 [main] INFO  com.zaxxer.hikari.HikariDataSource 110 - HikariPool-1 - Starting...
+2020-03-12 14:22:28,198 [main] INFO  com.zaxxer.hikari.HikariDataSource 123 - HikariPool-1 - Start completed.
+2020-03-12 14:22:28,214 [main] INFO  org.hibernate.dialect.Dialect 172 - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+2020-03-12 14:22:29,706 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator 52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-12 14:22:29,712 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-12 14:22:30,455 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'clientInboundChannelExecutor'
+2020-03-12 14:22:30,459 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2020-03-12 14:22:30,464 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler 181 - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2020-03-12 14:22:30,493 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'brokerChannelExecutor'
+2020-03-12 14:22:30,523 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration 220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-12 14:22:30,730 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping 54 - Adding welcome page: ServletContext resource [/index.html]
+2020-03-12 14:22:30,912 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Starting...
+2020-03-12 14:22:30,912 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-03-12 14:22:30,913 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Started.
+2020-03-12 14:22:30,923 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8081"]
+2020-03-12 14:22:30,941 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 204 - Tomcat started on port(s): 8081 (http) with context path ''
+2020-03-12 14:22:30,943 [main] INFO  com.example.demo.DemoApplication 61 - Started DemoApplication in 6.272 seconds (JVM running for 7.213)
+2020-03-12 14:22:38,958 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-12 14:22:38,959 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
+2020-03-12 14:22:38,966 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet 547 - Completed initialization in 7 ms
+2020-03-12 14:23:30,491 [MessageBroker-1] INFO  o.s.w.s.c.WebSocketMessageBrokerStats 126 - WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(1)-CONNECTED(1)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 8, active threads = 0, queued tasks = 0, completed tasks = 9], outboundChannel[pool size = 2, active threads = 0, queued tasks = 0, completed tasks = 2], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 3, completed tasks = 11]
+2020-03-12 14:25:27,536 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin 159 - Application shutdown requested.
+2020-03-12 14:25:27,702 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Stopping...
+2020-03-12 14:25:27,703 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-03-12 14:25:27,703 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Stopped.
+2020-03-12 14:25:27,704 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'brokerChannelExecutor'
+2020-03-12 14:25:27,705 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskScheduler 218 - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2020-03-12 14:25:27,706 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2020-03-12 14:25:27,707 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'clientInboundChannelExecutor'
+2020-03-12 14:25:27,708 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-12 14:25:27,711 [RMI TCP Connection(10)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource 350 - HikariPool-1 - Shutdown initiated...
+2020-03-12 14:25:27,750 [RMI TCP Connection(10)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource 352 - HikariPool-1 - Shutdown completed.
+2020-03-12 14:25:31,221 [main] INFO  com.example.demo.DemoApplication 55 - Starting DemoApplication on EZ004842 with PID 13844 (D:\epson\workspace\demo\target\classes started by 004842 in D:\epson\workspace\demo)
+2020-03-12 14:25:31,224 [main] INFO  com.example.demo.DemoApplication 651 - No active profile set, falling back to default profiles: default
+2020-03-12 14:25:31,702 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-12 14:25:31,702 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-12 14:25:31,748 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 38ms. Found 2 JPA repository interfaces.
+2020-03-12 14:25:31,898 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-12 14:25:31,900 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-03-12 14:25:31,913 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2020-03-12 14:25:32,414 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 92 - Tomcat initialized with port(s): 8081 (http)
+2020-03-12 14:25:32,422 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8081"]
+2020-03-12 14:25:32,423 [main] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-03-12 14:25:32,423 [main] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-12 14:25:32,496 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2020-03-12 14:25:32,496 [main] INFO  o.s.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1179 ms
+2020-03-12 14:25:32,914 [main] INFO  o.h.jpa.internal.util.LogHelper 31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-12 14:25:32,976 [main] INFO  org.hibernate.Version 44 - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-12 14:25:33,091 [main] INFO  o.h.annotations.common.Version 49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-12 14:25:33,190 [main] INFO  com.zaxxer.hikari.HikariDataSource 110 - HikariPool-1 - Starting...
+2020-03-12 14:25:34,015 [main] INFO  com.zaxxer.hikari.HikariDataSource 123 - HikariPool-1 - Start completed.
+2020-03-12 14:25:34,036 [main] INFO  org.hibernate.dialect.Dialect 172 - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+2020-03-12 14:25:35,214 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator 52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-12 14:25:35,220 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-12 14:25:35,905 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'clientInboundChannelExecutor'
+2020-03-12 14:25:35,913 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2020-03-12 14:25:35,920 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler 181 - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2020-03-12 14:25:35,954 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'brokerChannelExecutor'
+2020-03-12 14:25:35,992 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration 220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-12 14:25:36,261 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping 54 - Adding welcome page: ServletContext resource [/index.html]
+2020-03-12 14:25:36,514 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Starting...
+2020-03-12 14:25:36,514 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-03-12 14:25:36,515 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Started.
+2020-03-12 14:25:36,537 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8081"]
+2020-03-12 14:25:36,562 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 204 - Tomcat started on port(s): 8081 (http) with context path ''
+2020-03-12 14:25:36,565 [main] INFO  com.example.demo.DemoApplication 61 - Started DemoApplication in 5.761 seconds (JVM running for 6.623)
+2020-03-12 14:25:52,390 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-12 14:25:52,390 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
+2020-03-12 14:25:52,396 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet 547 - Completed initialization in 6 ms
+2020-03-12 14:26:35,951 [MessageBroker-4] INFO  o.s.w.s.c.WebSocketMessageBrokerStats 126 - WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(1)-CONNECTED(1)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 8, active threads = 0, queued tasks = 0, completed tasks = 9], outboundChannel[pool size = 2, active threads = 0, queued tasks = 0, completed tasks = 2], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 3, completed tasks = 10]
+2020-03-12 14:30:39,987 [RMI TCP Connection(15)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin 159 - Application shutdown requested.
+2020-03-12 14:30:40,151 [RMI TCP Connection(15)-127.0.0.1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Stopping...
+2020-03-12 14:30:40,152 [RMI TCP Connection(15)-127.0.0.1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[1 destination(s)], registry[1 sessions]]]]
+2020-03-12 14:30:40,152 [RMI TCP Connection(15)-127.0.0.1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Stopped.
+2020-03-12 14:30:40,154 [RMI TCP Connection(15)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'brokerChannelExecutor'
+2020-03-12 14:30:40,155 [RMI TCP Connection(15)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskScheduler 218 - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2020-03-12 14:30:40,156 [RMI TCP Connection(15)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2020-03-12 14:30:40,157 [RMI TCP Connection(15)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'clientInboundChannelExecutor'
+2020-03-12 14:30:40,158 [RMI TCP Connection(15)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-12 14:30:40,161 [RMI TCP Connection(15)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource 350 - HikariPool-1 - Shutdown initiated...
+2020-03-12 14:30:40,202 [RMI TCP Connection(15)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource 352 - HikariPool-1 - Shutdown completed.
+2020-03-12 14:30:43,316 [main] INFO  com.example.demo.DemoApplication 55 - Starting DemoApplication on EZ004842 with PID 23884 (D:\epson\workspace\demo\target\classes started by 004842 in D:\epson\workspace\demo)
+2020-03-12 14:30:43,320 [main] INFO  com.example.demo.DemoApplication 651 - No active profile set, falling back to default profiles: default
+2020-03-12 14:30:43,838 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-12 14:30:43,839 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-12 14:30:43,889 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 43ms. Found 2 JPA repository interfaces.
+2020-03-12 14:30:44,092 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-12 14:30:44,093 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-03-12 14:30:44,108 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2020-03-12 14:30:44,607 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 92 - Tomcat initialized with port(s): 8081 (http)
+2020-03-12 14:30:44,614 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8081"]
+2020-03-12 14:30:44,615 [main] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-03-12 14:30:44,615 [main] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-12 14:30:44,691 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2020-03-12 14:30:44,692 [main] INFO  o.s.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1252 ms
+2020-03-12 14:30:45,020 [main] INFO  o.h.jpa.internal.util.LogHelper 31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-12 14:30:45,075 [main] INFO  org.hibernate.Version 44 - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-12 14:30:45,178 [main] INFO  o.h.annotations.common.Version 49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-12 14:30:45,257 [main] INFO  com.zaxxer.hikari.HikariDataSource 110 - HikariPool-1 - Starting...
+2020-03-12 14:30:46,429 [main] INFO  com.zaxxer.hikari.HikariDataSource 123 - HikariPool-1 - Start completed.
+2020-03-12 14:30:46,444 [main] INFO  org.hibernate.dialect.Dialect 172 - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+2020-03-12 14:30:47,624 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator 52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-12 14:30:47,631 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-12 14:30:48,353 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'clientInboundChannelExecutor'
+2020-03-12 14:30:48,357 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2020-03-12 14:30:48,362 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler 181 - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2020-03-12 14:30:48,394 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'brokerChannelExecutor'
+2020-03-12 14:30:48,428 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration 220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-12 14:30:48,615 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping 54 - Adding welcome page: ServletContext resource [/index.html]
+2020-03-12 14:30:48,783 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Starting...
+2020-03-12 14:30:48,784 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-03-12 14:30:48,785 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Started.
+2020-03-12 14:30:48,795 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8081"]
+2020-03-12 14:30:48,814 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 204 - Tomcat started on port(s): 8081 (http) with context path ''
+2020-03-12 14:30:48,816 [main] INFO  com.example.demo.DemoApplication 61 - Started DemoApplication in 5.902 seconds (JVM running for 6.759)
+2020-03-12 14:31:28,192 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin 159 - Application shutdown requested.
+2020-03-12 14:31:28,354 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Stopping...
+2020-03-12 14:31:28,354 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-03-12 14:31:28,355 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Stopped.
+2020-03-12 14:31:28,356 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'brokerChannelExecutor'
+2020-03-12 14:31:28,357 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskScheduler 218 - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2020-03-12 14:31:28,358 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2020-03-12 14:31:28,359 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'clientInboundChannelExecutor'
+2020-03-12 14:31:28,359 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-12 14:31:28,361 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource 350 - HikariPool-1 - Shutdown initiated...
+2020-03-12 14:31:28,401 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource 352 - HikariPool-1 - Shutdown completed.
+2020-03-12 14:32:04,927 [main] INFO  com.example.demo.DemoApplication 55 - Starting DemoApplication on EZ004842 with PID 14276 (D:\epson\workspace\demo\target\classes started by 004842 in D:\epson\workspace\demo)
+2020-03-12 14:32:04,930 [main] INFO  com.example.demo.DemoApplication 651 - No active profile set, falling back to default profiles: default
+2020-03-12 14:32:05,469 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-12 14:32:05,470 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-12 14:32:05,519 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 41ms. Found 2 JPA repository interfaces.
+2020-03-12 14:32:05,689 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-12 14:32:05,690 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-03-12 14:32:05,706 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+2020-03-12 14:32:06,492 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 92 - Tomcat initialized with port(s): 8081 (http)
+2020-03-12 14:32:06,509 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8081"]
+2020-03-12 14:32:06,510 [main] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-03-12 14:32:06,511 [main] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-12 14:32:06,670 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2020-03-12 14:32:06,671 [main] INFO  o.s.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1625 ms
+2020-03-12 14:32:07,031 [main] INFO  o.h.jpa.internal.util.LogHelper 31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-12 14:32:07,107 [main] INFO  org.hibernate.Version 44 - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-12 14:32:07,226 [main] INFO  o.h.annotations.common.Version 49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-12 14:32:07,327 [main] INFO  com.zaxxer.hikari.HikariDataSource 110 - HikariPool-1 - Starting...
+2020-03-12 14:32:08,155 [main] INFO  com.zaxxer.hikari.HikariDataSource 123 - HikariPool-1 - Start completed.
+2020-03-12 14:32:08,173 [main] INFO  org.hibernate.dialect.Dialect 172 - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+2020-03-12 14:32:09,520 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator 52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-12 14:32:09,526 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-12 14:32:10,254 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'clientInboundChannelExecutor'
+2020-03-12 14:32:10,258 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2020-03-12 14:32:10,263 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler 181 - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2020-03-12 14:32:10,292 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'brokerChannelExecutor'
+2020-03-12 14:32:10,322 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration 220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-12 14:32:10,501 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping 54 - Adding welcome page: ServletContext resource [/index.html]
+2020-03-12 14:32:10,661 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Starting...
+2020-03-12 14:32:10,661 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-03-12 14:32:10,662 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Started.
+2020-03-12 14:32:10,673 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8081"]
+2020-03-12 14:32:10,693 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 204 - Tomcat started on port(s): 8081 (http) with context path ''
+2020-03-12 14:32:10,696 [main] INFO  com.example.demo.DemoApplication 61 - Started DemoApplication in 6.312 seconds (JVM running for 7.84)
+2020-03-12 14:32:10,739 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-12 14:32:10,740 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
+2020-03-12 14:32:10,745 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet 547 - Completed initialization in 5 ms
+2020-03-12 14:33:10,292 [MessageBroker-3] INFO  o.s.w.s.c.WebSocketMessageBrokerStats 126 - WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(1)-CONNECTED(1)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 8, active threads = 0, queued tasks = 0, completed tasks = 9], outboundChannel[pool size = 2, active threads = 0, queued tasks = 0, completed tasks = 2], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 3, completed tasks = 12]
+2020-03-12 15:03:10,293 [MessageBroker-2] INFO  o.s.w.s.c.WebSocketMessageBrokerStats 126 - WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(1)-CONNECTED(1)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 9], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 2], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 3, completed tasks = 475]
+2020-03-12 15:33:10,294 [MessageBroker-4] INFO  o.s.w.s.c.WebSocketMessageBrokerStats 126 - WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(1)-CONNECTED(1)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 9], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 2], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 3, completed tasks = 938]
+2020-03-12 15:56:56,717 [RMI TCP Connection(172)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin 159 - Application shutdown requested.
+2020-03-12 15:56:56,907 [RMI TCP Connection(172)-127.0.0.1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Stopping...
+2020-03-12 15:56:56,908 [RMI TCP Connection(172)-127.0.0.1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-03-12 15:56:56,909 [RMI TCP Connection(172)-127.0.0.1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Stopped.
+2020-03-12 15:56:56,914 [RMI TCP Connection(172)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'brokerChannelExecutor'
+2020-03-12 15:56:56,915 [RMI TCP Connection(172)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskScheduler 218 - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2020-03-12 15:56:56,916 [RMI TCP Connection(172)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2020-03-12 15:56:56,917 [RMI TCP Connection(172)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'clientInboundChannelExecutor'
+2020-03-12 15:56:56,918 [RMI TCP Connection(172)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-12 15:56:56,932 [RMI TCP Connection(172)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource 350 - HikariPool-1 - Shutdown initiated...
+2020-03-12 15:56:56,974 [RMI TCP Connection(172)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource 352 - HikariPool-1 - Shutdown completed.
+2020-03-12 16:11:27,395 [main] INFO  com.example.demo.DemoApplication 55 - Starting DemoApplication on EZ004842 with PID 26692 (D:\epson\workspace\demo\target\classes started by 004842 in D:\epson\workspace\demo)
+2020-03-12 16:11:27,398 [main] INFO  com.example.demo.DemoApplication 651 - No active profile set, falling back to default profiles: default
+2020-03-12 16:11:27,853 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-12 16:11:27,853 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-12 16:11:27,910 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 49ms. Found 2 JPA repository interfaces.
+2020-03-12 16:11:28,074 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-12 16:11:28,075 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-03-12 16:11:28,089 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2020-03-12 16:11:28,546 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 92 - Tomcat initialized with port(s): 8081 (http)
+2020-03-12 16:11:28,553 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8081"]
+2020-03-12 16:11:28,554 [main] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-03-12 16:11:28,554 [main] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-12 16:11:28,630 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring embedded WebApplicationContext
+2020-03-12 16:11:28,630 [main] INFO  o.s.web.context.ContextLoader 284 - Root WebApplicationContext: initialization completed in 1138 ms
+2020-03-12 16:11:28,972 [main] INFO  o.h.jpa.internal.util.LogHelper 31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-03-12 16:11:29,042 [main] INFO  org.hibernate.Version 44 - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-03-12 16:11:29,168 [main] INFO  o.h.annotations.common.Version 49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-03-12 16:11:29,266 [main] INFO  com.zaxxer.hikari.HikariDataSource 110 - HikariPool-1 - Starting...
+2020-03-12 16:11:30,088 [main] INFO  com.zaxxer.hikari.HikariDataSource 123 - HikariPool-1 - Start completed.
+2020-03-12 16:11:30,103 [main] INFO  org.hibernate.dialect.Dialect 172 - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+2020-03-12 16:11:31,286 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator 52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-03-12 16:11:31,292 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-12 16:11:31,986 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'clientInboundChannelExecutor'
+2020-03-12 16:11:31,992 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2020-03-12 16:11:31,999 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler 181 - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2020-03-12 16:11:32,034 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'brokerChannelExecutor'
+2020-03-12 16:11:32,066 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration 220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-12 16:11:32,319 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping 54 - Adding welcome page: ServletContext resource [/index.html]
+2020-03-12 16:11:32,483 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Starting...
+2020-03-12 16:11:32,484 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-03-12 16:11:32,484 [main] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Started.
+2020-03-12 16:11:32,493 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8081"]
+2020-03-12 16:11:32,511 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 204 - Tomcat started on port(s): 8081 (http) with context path ''
+2020-03-12 16:11:32,513 [main] INFO  com.example.demo.DemoApplication 61 - Started DemoApplication in 5.462 seconds (JVM running for 6.227)
+2020-03-12 16:11:48,667 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-12 16:11:48,667 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet 525 - Initializing Servlet 'dispatcherServlet'
+2020-03-12 16:11:48,673 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet 547 - Completed initialization in 5 ms
+2020-03-12 16:11:58,162 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin 159 - Application shutdown requested.
+2020-03-12 16:11:58,327 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Stopping...
+2020-03-12 16:11:58,327 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2020-03-12 16:11:58,328 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.m.s.b.SimpleBrokerMessageHandler 137 - Stopped.
+2020-03-12 16:11:58,329 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'brokerChannelExecutor'
+2020-03-12 16:11:58,329 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskScheduler 218 - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2020-03-12 16:11:58,330 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2020-03-12 16:11:58,330 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'clientInboundChannelExecutor'
+2020-03-12 16:11:58,330 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean 598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-12 16:11:58,333 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource 350 - HikariPool-1 - Shutdown initiated...
+2020-03-12 16:11:58,374 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource 352 - HikariPool-1 - Shutdown completed.
